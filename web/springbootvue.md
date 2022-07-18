@@ -18,7 +18,7 @@ vue.js : visual studio code
     server.port=9990
     
 ### 5. vs code에서 프로젝트 폴더 로 이동 
-<img src="(https://user-images.githubusercontent.com/83282953/179531951-a9cbb536-f441-4e53-8c65-c48ec3d0a4b4.png)"  width="50%" height="50%"/>
+<img src="https://user-images.githubusercontent.com/83282953/179531951-a9cbb536-f441-4e53-8c65-c48ec3d0a4b4.png"  width="50%" height="50%"/>
 
 ### 6. 터미널 - vue create 프로젝트명(npm이 설치 되었다는 가정 하에) - 알맞은 vue 버전 선택
 <img src="https://user-images.githubusercontent.com/83282953/179517598-794bf78d-d7a8-4093-8dd6-da192d13bd5e.png"  width="50%" height="50%"/>
