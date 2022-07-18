@@ -1,5 +1,10 @@
 # Springboot + Vue.js 연동
 
+spring boot : eclipse
+vue.js : visual studio code
+
+
+
 ### 1. eclipse실행 후 File - New - Spring Starter Project
 ![1](https://user-images.githubusercontent.com/83282953/179514342-fad025d9-1605-4c89-a94a-4e5ea7835989.png)
 
@@ -11,3 +16,13 @@
 
 ### 4. application.properties를 열어 포트를 변경
     server.port=9990
+
+### 5. vs code에서 프로젝트 폴더 - src/main/resources로 이동 
+![4](https://user-images.githubusercontent.com/83282953/179517319-ba54f090-9914-48b3-a0c0-852b228b79a4.png)
+
+### 6. 터미널 - vue create 프로젝트명(npm이 설치 되었다는 가정 하에) - 알맞은 vue 버전 선택
+![5](https://user-images.githubusercontent.com/83282953/179517598-794bf78d-d7a8-4093-8dd6-da192d13bd5e.png)
+
+### 7. 현재 vs code가 열린 폴더가 아닌 생성된 vue 폴더로 이동 (cd 프로젝트명도 가능)
+    * open folder - resources - vue
+![6](https://user-images.githubusercontent.com/83282953/179518200-e10c73dc-06b1-43d3-86d6-ba5b177e0421.png)
