@@ -17,7 +17,7 @@ vue.js : visual studio code
 ### 4. application.properties를 열어 포트를 변경
     server.port=9990
 
-### 5. vs code에서 프로젝트 폴더 - src/main/resources로 이동 
+### 5. vs code에서 프로젝트 폴더 - src/main/resources/static 으로 이동 
 <img src="https://user-images.githubusercontent.com/83282953/179517319-ba54f090-9914-48b3-a0c0-852b228b79a4.png"  width="50%" height="50%"/>
 
 ### 6. 터미널 - vue create 프로젝트명(npm이 설치 되었다는 가정 하에) - 알맞은 vue 버전 선택
