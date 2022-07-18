@@ -11,7 +11,7 @@ vue.js : visual studio code
 ### 2. Name, Package 등 알맞게 변경 후 Next
 <img src="https://user-images.githubusercontent.com/83282953/179514637-1c373ba4-ac84-4ace-b77a-ab82988fbbda.png"  width="50%" height="50%"/>
 
-### 3. porm.xml에 추가할 것들을 선택 (추후에 추가 가능하니 Spring Boot DevTools, Oracle만 선택함)
+### 3. porm.xml에 추가할 것들을 선택 (추후에 추가 가능하니 Spring Web, lombk, Oracle만 선택함)
 <img src="https://user-images.githubusercontent.com/83282953/179514787-e0e5574f-bf31-4fda-b2a6-9a4fe16e8df1.png"  width="50%" height="50%"/>
 
 ### 4. application.properties를 열어 포트를 변경
