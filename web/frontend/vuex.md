@@ -7,7 +7,7 @@
 
 # vuex 적용
 1. store/index.js
-<img src="https://user-images.githubusercontent.com/83282953/179541656-64b81db6-dd0d-4b7c-aa7d-ea6853d59eea.png" width="300" height="300"/>
+<img src="https://user-images.githubusercontent.com/83282953/179542944-c521b82d-b3e7-4d24-9890-182229569b69.png" width="300" height="300"/>
 
 2. main.js
 <img src="https://user-images.githubusercontent.com/83282953/179542289-98f3d99a-4f5d-43ce-a3eb-1052b085dc1a.png" width="300" height="300"/>
