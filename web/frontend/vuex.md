@@ -7,3 +7,4 @@
 
 # vuex 적용
 <img src="https://user-images.githubusercontent.com/83282953/179541656-64b81db6-dd0d-4b7c-aa7d-ea6853d59eea.png" width="300" height="300"/>
+<img src="https://user-images.githubusercontent.com/83282953/179542289-98f3d99a-4f5d-43ce-a3eb-1052b085dc1a.png" width="300" height="300"/>
