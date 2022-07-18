@@ -6,8 +6,7 @@ vue.js : visual studio code
 
 
 ### 1. eclipse실행 후 File - New - Spring Starter Project
-![1](https://user-images.githubusercontent.com/83282953/179514342-fad025d9-1605-4c89-a94a-4e5ea7835989.png)
-
+<img src="[/path/to/img.jpg](https://user-images.githubusercontent.com/83282953/179514342-fad025d9-1605-4c89-a94a-4e5ea7835989.png)" width="40%" height="30%" title="px(픽셀) 크기 설정" alt=""></img>
 ### 2. Name, Package 등 알맞게 변경 후 Next
 ![2](https://user-images.githubusercontent.com/83282953/179514637-1c373ba4-ac84-4ace-b77a-ab82988fbbda.png)
 
