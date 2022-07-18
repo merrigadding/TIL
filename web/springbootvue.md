@@ -6,14 +6,13 @@ vue.js : visual studio code
 
 
 ### 1. eclipse실행 후 File - New - Spring Starter Project
-![1](https://user-images.githubusercontent.com/83282953/179518477-96e202bc-5c1d-441e-ad6f-df7c788ca535.png)
+<img src="https://user-images.githubusercontent.com/83282953/179518477-96e202bc-5c1d-441e-ad6f-df7c788ca535.png"  width="50%" height="50%"/>
 
 ### 2. Name, Package 등 알맞게 변경 후 Next
-![2](https://user-images.githubusercontent.com/83282953/179514637-1c373ba4-ac84-4ace-b77a-ab82988fbbda.png)
+<img src="https://user-images.githubusercontent.com/83282953/179514637-1c373ba4-ac84-4ace-b77a-ab82988fbbda.png"  width="50%" height="50%"/>
 
 ### 3. porm.xml에 추가할 것들을 선택 (추후에 추가 가능하니 Spring Boot DevTools, Oracle만 선택함)
 <img src="https://user-images.githubusercontent.com/83282953/179514787-e0e5574f-bf31-4fda-b2a6-9a4fe16e8df1.png"  width="50%" height="50%"/>
-![3](https://user-images.githubusercontent.com/83282953/179514787-e0e5574f-bf31-4fda-b2a6-9a4fe16e8df1.png)
 
 ### 4. application.properties를 열어 포트를 변경
     server.port=9990
