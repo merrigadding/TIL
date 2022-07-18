@@ -8,3 +8,6 @@
 
 ### 3. porm.xml에 추가할 것들을 선택 (추후에 추가 가능하니 Spring Boot DevTools, Oracle만 선택함)
 ![3](https://user-images.githubusercontent.com/83282953/179514787-e0e5574f-bf31-4fda-b2a6-9a4fe16e8df1.png)
+
+### 4. application.properties를 열어 포트를 변경
+    server.port=9990
