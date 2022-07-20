@@ -63,9 +63,27 @@
     }
     
     Object.entries(user);
-    // [
+    /* [
             ["name","Mike"],
             ["age",30],
         ]
+    */
+```
+
+* Object.fromEntries() : 키/값 배열을 객체로
+```
+    const arr = [
+           ["name","Mike"]
+          ,["age",30]
+          ,
+    ];
+    
+    arr.fromEntries(arr);
+    /*
+        {
+            name : 'Mike',
+            age : 30
+        }
+    */
 ```
 
