@@ -6,7 +6,7 @@
 # 계산된 프로퍼티 (Computed Property)
 <img src="https://user-images.githubusercontent.com/83282953/179982207-a102f062-ce26-4ce1-9278-74e049732d40.png" width="50%" height="50%">
 
-*무엇이 키가 될지 모를때 유*
+*무엇이 키가 될지 모를때 유용함*
 ```
     function makeObj(key, value) {
         return {
