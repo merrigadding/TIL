@@ -22,7 +22,7 @@
     
 <img src="https://user-images.githubusercontent.com/83282953/179983496-419f7b90-bc38-4d9d-a73a-496e1c7735f5.png" width="50%" height="50%">
 
-* cloneUser.name= 'Tom'; 으로 바꾸었지만 user의 이름도 바뀜 하나의 객체를 두 변수가 접근하고 있기 때문
+*cloneUser.name= 'Tom'; 으로 바꾸었지만 user의 이름도 바뀜 하나의 객체를 두 변수가 접근하고 있기 때문*
 
 ```
     const cloneUser = Object.assign({},user);
@@ -35,5 +35,39 @@
             name : 'Mike',
             age : 30
         }
+```
+
+* Object.keys() : 키 배열 변환
+```
+    const user = {
+        name : 'Mike',
+        age : 30
+    }
+    
+    Object.keys(user); // [ "name", "age" ];
+```
+
+* Object.values() : 값 배열 변환
+```
+    const user = {
+        name : 'Mike',
+        age : 30
+    }
+    
+    Object.values(user); // [ "Mike", 30 ];
+```
+
+* Object.entries() : 키/값 배열 변환
+```
+    const user = {
+        name : 'Mike',
+        age : 30
+    }
+    
+    Object.entries(user);
+    // [
+            ["name","Mike"],
+            ["age",30],
+        ]
 ```
 
