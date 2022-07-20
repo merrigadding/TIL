@@ -6,6 +6,18 @@
 # 계산된 프로퍼티 (Computed Property)
 <img src="https://user-images.githubusercontent.com/83282953/179982207-a102f062-ce26-4ce1-9278-74e049732d40.png" width="50%" height="50%">
 
+*무엇이 키가 될지 모를때 유*
+```
+    function makeObj(key, value) {
+        return {
+            [key] : value,
+        }
+    }
+    
+    const obj = makeObj("이름",30);
+    console.log(obj); // {"이름" : 30}
+```
+
 # 객체 메소드 (Object Method)
 
 * Object.assign() : 객체 복제
