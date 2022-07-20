@@ -9,9 +9,14 @@
 # 객체 메소드 (Object Method)
 
 * Object.assign() : 객체 복제
-    const user = {
-        name : 'Mike',
-        age : 30
-    }
+    <pre>
+        <code>
+        const user = {
+            name : 'Mike',
+            age : 30
+        }
+        </code>
+    </pre>
+    
     
     const cloneUser = user      XXXX
