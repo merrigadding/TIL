@@ -15,8 +15,9 @@
             name : 'Mike',
             age : 30
         }
+        const cloneUser = user; -> error
+        user에는 객체자체가 들어가 있는게 아니라 객체가 저장되어있는 메모리 주소인 객체에 대한 참조값이 저장됨 
         </code>
     </pre>
     
     
-    const cloneUser = user      XXXX
