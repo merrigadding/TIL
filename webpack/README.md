@@ -25,8 +25,18 @@
             <h1>Hello, Webpack</h1>
             <div id="root"></div>
             <script type="module">
-                import './source/hello.js';
-                import './source/world.js';
+                import hello_word from './source/hello.js';
+                import world_word from './source/world.js';
                 document.querySelector('#root').innerHTML = word;
             </script>
         </body>
+
+    * hello.js
+        var word = 'Hello';
+        export default word;
+        
+    * world.js
+        var word = 'World';
+        export default word;
+
+* hello.js 라고 하는 모듈을 import하는 쪽에서 export default 뒤에 있는 값을 사용 할 수 있다.
