@@ -27,7 +27,7 @@
             <script type="module">
                 import hello_word from './source/hello.js';
                 import world_word from './source/world.js';
-                document.querySelector('#root').innerHTML = word;
+                document.querySelector('#root').innerHTML = hello_word + ' ' + world_word;
             </script>
         </body>
 
@@ -40,3 +40,5 @@
         export default word;
 
 * hello.js 라고 하는 모듈을 import하는 쪽에서 export default 뒤에 있는 값을 사용 할 수 있다.
+<img src=https://user-images.githubusercontent.com/83282953/180801458-bb9b111c-ea09-4ddd-904c-74ee303bcc3d.png width=30% height=30%>
+
