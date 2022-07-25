@@ -9,6 +9,23 @@
 
 
 <img src=https://user-images.githubusercontent.com/83282953/180798684-d0d736a4-2f58-41b6-ab69-85e1546e3d08.png width=50% height=50%> 
-<img src=https://user-images.githubusercontent.com/83282953/180798483-6976d690-f9c5-4c6d-b842-29b13d207dd3.png width=50% height=50%>!
-
+<img src=https://user-images.githubusercontent.com/83282953/180798483-6976d690-f9c5-4c6d-b842-29b13d207dd3.png width=50% height=50%>
 * 이와같이 서로 다른 파일에 변수이름이 같아서 나중에 선언한 world.js가 기존에 있던 변수를 덮어 쓰게 된다.
+
+* 이런 문제를 극복하기 위한 개념이 모듈이다. 모듈에 대한 기능이 최신 브라우저에는 탑재 되어있다.
+
+### 모듈
+index.html
+        <head>
+            <!-- <script src="./source/hello.js"></script>
+            <script src="./source/world.js"></script> -->
+        </head>
+        <body>
+            <h1>Hello, Webpack</h1>
+            <div id="root"></div>
+            <script type="module">
+                import './source/hello.js';
+                import './source/world.js';
+                document.querySelector('#root').innerHTML = word;
+            </script>
+        </body>
