@@ -15,7 +15,7 @@
 * 이런 문제를 극복하기 위한 개념이 모듈이다. 모듈에 대한 기능이 최신 브라우저에는 탑재 되어있다.
 
 ### 모듈
-index.html
+* index.html
         <head>
             <!-- <script src="./source/hello.js"></script>
             <script src="./source/world.js"></script> -->
