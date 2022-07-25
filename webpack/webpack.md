@@ -22,7 +22,6 @@
 
 6.  index.html 파일 수정
 ```
-   
      <body>
         <h1>Hello, Webpack</h1>
         <div id="root"></div>
@@ -30,4 +29,8 @@
       </body>
 ```
 
+7. 결과 
+<img src=https://user-images.githubusercontent.com/83282953/180808898-788ea70f-0c07-4370-8b13-3ca75ea71a60.png width=50% height=50%>
+
+* js파일이 한개만 불러온 것을 알 수 있다.
 
