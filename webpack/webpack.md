@@ -16,5 +16,6 @@
 
 5. 작업한 결과를 public이라는 폴더 아래에 생성하고 싶을때 터미널에서
 ```
-    npx webpack --entry ./source/index.js --output-path ./public/index_bunlder.js // entry는 bundling할 파일, output-path는 결과
+    npx webpack --entry ./source/index.js --output-path ./public/index_bunlder.js 
+    // entry는 bundling할 파일, output-path는 결과 된 
 ```
