@@ -8,4 +8,6 @@
 3. 웹팩에는 매우 많은 플러그인들이 존재한다. 이런 플러그인을 이용하면 웹 개발시에 필요한 다양한 작업을 자동화 할 수 있다.
 
 
-<img src=https://user-images.githubusercontent.com/83282953/180797916-d549fb4a-1ba6-43b0-a066-5630938b097a.png width=30% height=30%><img src=https://user-images.githubusercontent.com/83282953/180797916-d549fb4a-1ba6-43b0-a066-5630938b097a.png width=30% height=30%>
+<img src=https://user-images.githubusercontent.com/83282953/180798684-d0d736a4-2f58-41b6-ab69-85e1546e3d08.png width=30% height=30%> <img src=https://user-images.githubusercontent.com/83282953/180798483-6976d690-f9c5-4c6d-b842-29b13d207dd3.png width=30% height=30%>!
+
+* 이와같이 서로 다른 파일에 변수이름이 같아서 나중에 선언한 world.js가 기존에 있던 변수를 덮어 쓰게 된다.
