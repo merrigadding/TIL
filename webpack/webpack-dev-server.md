@@ -11,6 +11,8 @@
   },
 ```
 ```java
+# package.json
+
 "scripts": {
   "start": "webpack serve --open --mode=development", // --mode를 안해주면 에러남 
   "build": "webpack --mode=production", // 보통 build는 production으로 한다고 함
