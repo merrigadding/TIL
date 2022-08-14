@@ -48,3 +48,4 @@ public class CommonInterCeptor implements HandlerInterceptor{
 	}
 }
 ```
+출처 : <https://dejavuhyo.github.io/posts/spring-boot-interceptor/>
