@@ -1,5 +1,5 @@
 # 인터셉터
-이름 그대로 '무언가를 가로챈다' 라는 의미이다. 스프링 컨텍스트의 기능으로 임의의 URI를 호출시 DispatcherServlet에서 해당 COntroller가 처리되기 전과 후에 발생하는 이벤트이다.
+이름 그대로 '무언가를 가로챈다' 라는 의미이다. 스프링 컨텍스트의 기능으로 임의의 URI를 호출시 DispatcherServlet에서 해당 Controller가 처리되기 전과 후에 발생하는 이벤트이다.
 <br>
 <img src=https://user-images.githubusercontent.com/83282953/184533537-fa7c4810-21ab-4695-a3ff-f2523026975c.png width="500px" heigth="300px">
 
