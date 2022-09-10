@@ -75,5 +75,34 @@ async test() {
     })
   },
 ```
+# 에러 핸들링
+프라미스가 정상적으로 이행되면 await promise는 프라미스 객체의 result에 저장된 값을 반환한다. 반면 프라미스가 거부되면 마치 throw문을 작성한 것처럼 에러가 던져진다.
+```java
+async function f() {
+  await Promise.reject(new Error('에러 발생!'))
+}
+```
+위 아래와 같음
+```java
+async function f() {
+  throw new Error('에러발생')
+}
+```
+try..catch를 사용해 잡을수 있다.
+```java
+async function f() {
+    try {
+      let response = await fetch('https://api.github.com/users/iliakan')
+      let user = await response.json()
+      console.log(user)
+    } catch (err) {
+      // fetch와 response.json에서 발행한 에러 모두를 여기서 잡습니다.
+      console.log(err)
+    }
+  }
 
+f()
+```
+async/await 를 사용하면 promise.then/catch가 거의 필요 없다. 하지만 가끔 가장 바깥 스코프에서 비동기 처리가 필요할 때 같이
+promise를 써야만 하는 경우가 생기기 때문에 async/await가 프라미스를 기반으로 한다는 사실을 알고 있어야 한다.
 출처<https://joshua1988.github.io/web-development/javascript/js-async-await/>
